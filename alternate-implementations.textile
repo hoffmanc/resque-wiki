@@ -1,0 +1,10 @@
+* "binarydud / pyres":http://github.com/binarydud/pyres/ - Python
+* "samuel / dreque":http://github.com/samuel/dreque/ - Python
+* "rphillips / resque-c":http://github.com/rphillips/resque-c - C
+* "jamesgolick / scala-resque-worker":http://github.com/jamesgolick/scala-resque-worker - Scala
+* "chad / resque-sharp":http://github.com/chad/resque-sharp - .NET
+
+h1. Resque Clients
+
+* "Python Resque Client":http://gist.github.com/225369
+* "Perl Resque Client":http://gist.github.com/225398
