@@ -3,6 +3,7 @@
 * "rphillips / resque-c":http://github.com/rphillips/resque-c - C
 * "jamesgolick / scala-resque-worker":http://github.com/jamesgolick/scala-resque-worker - Scala
 * "chad / resque-sharp":http://github.com/chad/resque-sharp - .NET
+* "joshholt / Nodeq":http://github.com/joshholt/Nodeq/ - node.js
 
 h1. Resque Clients
 
