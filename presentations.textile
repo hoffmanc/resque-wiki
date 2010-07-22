@@ -1,0 +1,2 @@
+* "Resque: I hardly know you":http://c.ixxr.net/swinger/_design/swinger/index.html#/preso/resque-nycrb/display/1
+* "¡Resque!":http://sfruby-meetup-resque.heroku.com/
