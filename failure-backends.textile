@@ -2,3 +2,4 @@ Resque ships with Redis and Hoptoad failure backends, but you can add your own.
 
 * "Email":http://gist.github.com/291329
 * "Custom":http://gist.github.com/299477
+* "Sensitive Hoptoad":http://gist.github.com/315893 - Filters out sensitive data
