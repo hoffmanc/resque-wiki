@@ -4,6 +4,7 @@
 * "jamesgolick / scala-resque-worker":http://github.com/jamesgolick/scala-resque-worker - Scala
 * "chad / resque-sharp":http://github.com/chad/resque-sharp - .NET
 * "joshholt / Nodeq":http://github.com/joshholt/Nodeq/ - node.js
+* "jbr / node-resque":http://github.com/jbr/node-resque/ - node.js
 * "chrisboulton / php-resque":http://github.com/chrisboulton/php-resque - PHP
 
 h1. Resque Clients
