@@ -6,3 +6,4 @@
 * "bitbckt / resque-lifecycle":http://github.com/bitbckt/resque-lifecycle ("gem":http://rubygems.org/gems/resque-lifecycle)
 * "scotttam / resque-throttle":http://github.com/scotttam/resque-throttle ("gem":http://rubygems.org/gems/resque-throttle)
 * "staugaard / resque-multi-job-forks":http://github.com/staugaard/resque-multi-job-forks ("gem":http://rubygems.org/gems/resque-multi-job-forks)
+* "defunkt / resque-lock":http://github.com/defunkt/resque-lock ("gem":http://rubygems.org/gems/resque-lock)
