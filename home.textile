@@ -1,1 +1,3 @@
-See all the "Plugins":http://wiki.github.com/defunkt/resque/plugins, read about "Alternate Implementations":http://wiki.github.com/defunkt/resque/alternate-implementations, or find new "Failure Backends":http://wiki.github.com/defunkt/resque/failure-backends.
+See all the "Plugins":http://wiki.github.com/defunkt/resque/plugins, read about "Alternate Implementations":http://wiki.github.com/defunkt/resque/alternate-implementations, check out some [[Presentations]], or find new "Failure Backends":http://wiki.github.com/defunkt/resque/failure-backends.
+
+Please see [[Contributing]] if you'd like to work on Resque.
