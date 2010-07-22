@@ -14,5 +14,6 @@
 * "kdonovan / resque-access_worker_from_job":http://github.com/kdonovan/resque-access_worker_from_job ("gem":http://rubygems.org/gems/resque-access_worker_from_job)
 * "iwarshak / resque-batchworker":http://github.com/iwarshak/resque-batchworker
 * "lmarlow / resque-meta":http://github.com/lmarlow/resque-meta ("gem":http://rubygems.org/gems/resque-meta)
+* "lmarlow / resque-result":http://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
