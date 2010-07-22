@@ -12,7 +12,7 @@
 * "lantins / resque-lock-timeout":http://github.com/lantins/resque-lock-timeout ("gem":http://rubygems.org/gems/resque-lock-timeout)
 * "justinweiss / resque_unit":http://github.com/justinweiss/resque_unit ("gem":http://rubygems.org/gems/resque_unit)
 * "kdonovan / resque-access_worker_from_job":http://github.com/kdonovan/resque-access_worker_from_job ("gem":http://rubygems.org/gems/resque-access_worker_from_job)
-* "iwarshak / resque-batchworker":http://github.com/iwarshak/resque-batchworker
+* "iwarshak / resque-batchworker":http://github.com/iwarshak/resque-batchworker ("gem":http://rubygems.org/gems/resque-batchworker)
 * "lmarlow / resque-meta":http://github.com/lmarlow/resque-meta ("gem":http://rubygems.org/gems/resque-meta)
 * "lmarlow / resque-result":http://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
 
