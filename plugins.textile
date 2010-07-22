@@ -4,3 +4,4 @@
 * "sickill / merb-resque-mailer":http://github.com/sickill/merb-resque-mailer/ ("gem":http://gemcutter.org/gems/merb-resque-mailer)
 * "jstorimer / delayed_paperclip":http://github.com/jstorimer/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip ) 
 * "bitbckt / resque-lifecycle":http://github.com/bitbckt/resque-lifecycle ("gem":http://rubygems.org/gems/resque-lifecycle)
+* "scotttam / resque-throttle":http://github.com/scotttam/resque-throttle ("gem":http://rubygems.org/gems/resque-throttle)
