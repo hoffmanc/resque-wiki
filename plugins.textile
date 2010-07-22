@@ -15,5 +15,6 @@
 * "iwarshak / resque-batchworker":http://github.com/iwarshak/resque-batchworker ("gem":http://rubygems.org/gems/resque-batchworker)
 * "lmarlow / resque-meta":http://github.com/lmarlow/resque-meta ("gem":http://rubygems.org/gems/resque-meta)
 * "lmarlow / resque-result":http://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
+* "lhill / resque_spec":http://github.com/leshill/resque_spec ("gem":http://rubygems.org/gems/resque_spec)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
