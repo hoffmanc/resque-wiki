@@ -3,3 +3,15 @@ Resque ships with Redis and Hoptoad failure backends, but you can add your own.
 * "Email":http://gist.github.com/291329
 * "Custom":http://gist.github.com/299477
 * "Sensitive Hoptoad":http://gist.github.com/315893 - Filters out sensitive data
+
+Using multiple failure backends is also useful. For example, you may want to get a Hoptoad notification and be able to view the same exception under the 'Failed' tab in ResqueWeb.  To use multiple failure backends, add something like the following to an initializer, rake task, or whatever:
+
+pre. require 'resque/failure/multiple'
+require 'resque/failure/hoptoad'
+require 'resque/failure/redis'
+Resque::Failure::Hoptoad.configure do |config|
+  config.api_key = 'fc49503482dec7bf13eda286c99ab2bf'
+  config.secure = true
+end
+Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Hoptoad]
+Resque::Failure.backend = Resque::Failure::Multiple
