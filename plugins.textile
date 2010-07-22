@@ -2,4 +2,4 @@
 * "bvandenbos / resque-scheduler":http://github.com/bvandenbos/resque-scheduler/ ("gem":http://gemcutter.org/gems/resque-scheduler)
 * "zapnap / resque_mailer":http://github.com/zapnap/resque_mailer/ ("gem":http://gemcutter.org/gems/resque_mailer)
 * "sickill / merb-resque-mailer":http://github.com/sickill/merb-resque-mailer/ ("gem":http://gemcutter.org/gems/merb-resque-mailer)
-* "bigfleet / delayed_paperclip":http://github.com/bigfleet/delayed_paperclip  (Watch this space for more, this fork will be merged into the main project)
+* "jstorimer / delayed_paperclip":http://github.com/jstorimer/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip ) 
