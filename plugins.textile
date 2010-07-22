@@ -10,3 +10,4 @@
 * "flyerhzm / resque-restriction":http://github.com/flyerhzm/resque-restriction/tree/master ("gem":http://rubygems.org/gems/resque-restriction)
 * "lantins / resque-retry":http://github.com/lantins/resque-retry ("gem":http://rubygems.org/gems/resque-retry)
 * "lantins / resque-lock-timeout":http://github.com/lantins/resque-lock-timeout ("gem":http://rubygems.org/gems/resque-lock-timeout)
+* "justinweiss / resque_unit":http://github.com/justinweiss/resque_unit ("gem":http://rubygems.org/gems/resque_unit)
