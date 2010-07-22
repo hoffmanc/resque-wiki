@@ -11,7 +11,7 @@ h2. Adding Code
 
 h2. Asking Questions
 
-* We have a mailing list for discussions. To join the list simply send an email to resque@librelist.com. This will subscribe you and send you information about your subscription, include unsubscribe information.
+* We have a mailing list for discussions. To join the list simply send an email to "resque@librelist.com":mailto:resque@librelist.com. This will subscribe you and send you information about your subscription, including unsubscribe information.
 
 h2. Bugs
 
