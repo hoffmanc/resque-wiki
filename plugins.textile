@@ -16,7 +16,7 @@
 * "lmarlow / resque-meta":http://github.com/lmarlow/resque-meta ("gem":http://rubygems.org/gems/resque-meta)
 * "lmarlow / resque-result":http://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
 * "lhill / resque_spec":http://github.com/leshill/resque_spec ("gem":http://rubygems.org/gems/resque_spec)
-* "pezra / resque-fairly":http://github.com/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
-* "pezra / resque-multi-step":http://github.com/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
+* "pezra / resque-fairly":http://github.com/pezra/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
+* "pezra / resque-multi-step":http://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
