@@ -6,6 +6,7 @@
 * "joshholt / Nodeq":http://github.com/joshholt/Nodeq/ - node.js
 * "jbr / node-resque":http://github.com/jbr/node-resque/ - node.js
 * "chrisboulton / php-resque":http://github.com/chrisboulton/php-resque - PHP
+* "plukevdh / kthxbye":http://github.com/plukevdh/kthxbye - Ruby
 
 h1. Resque Clients
 
