@@ -7,6 +7,7 @@
 * "jbr / node-resque":http://github.com/jbr/node-resque/ - node.js
 * "chrisboulton / php-resque":http://github.com/chrisboulton/php-resque - PHP
 * "plukevdh / kthxbye":http://github.com/plukevdh/kthxbye - Ruby
+* "technoweenie / coffee-resque":https://github.com/technoweenie/coffee-resque - Coffeescript/Node.js
 
 h1. Resque Clients
 
