@@ -20,5 +20,6 @@
 * "pezra / resque-fairly":http://github.com/pezra/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
 * "pezra / resque-multi-step":http://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
 * "djohnston / resque-batched-job":http://github.com/djohnston/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
+* "jayniz / resque-loner":http://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
