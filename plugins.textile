@@ -19,7 +19,7 @@
 * "lhill / resque_spec":http://github.com/leshill/resque_spec ("gem":http://rubygems.org/gems/resque_spec)
 * "pezra / resque-fairly":http://github.com/pezra/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
 * "pezra / resque-multi-step":http://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
-* "djohnston / resque-batched-job":http://github.com/djohnston/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
+* "drfeelngood / resque-batched-job":http://github.com/drfeelngood/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
 * "jayniz / resque-loner":http://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 * "ono / resque-cleaner":http://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
 
