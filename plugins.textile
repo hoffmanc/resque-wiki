@@ -22,5 +22,7 @@
 * "drfeelngood / resque-batched-job":http://github.com/drfeelngood/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
 * "jayniz / resque-loner":http://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 * "ono / resque-cleaner":http://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
+* "nevans / resque-cleaner":http://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
+
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
