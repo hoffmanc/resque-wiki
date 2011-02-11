@@ -23,6 +23,8 @@
 * "jayniz / resque-loner":http://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 * "ono / resque-cleaner":http://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
 * "nevans / resque-pool":http://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
-* "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected ("gem":https://rubygems.org/gems/resque-ensure-connected)
+* "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected 
+("gem":https://rubygems.org/gems/resque-ensure-connected)
+* "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
