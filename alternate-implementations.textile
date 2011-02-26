@@ -2,6 +2,7 @@
 * "samuel / dreque":http://github.com/samuel/dreque/ - Python
 * "rphillips / resque-c":http://github.com/rphillips/resque-c - C
 * "jamesgolick / scala-resque-worker":http://github.com/jamesgolick/scala-resque-worker - Scala
+* "gresrun / jesque":https://github.com/gresrun/jesque - Java
 * "chad / resque-sharp":http://github.com/chad/resque-sharp - .NET
 * "joshholt / Nodeq":http://github.com/joshholt/Nodeq/ - node.js
 * "jbr / node-resque":http://github.com/jbr/node-resque/ - node.js
