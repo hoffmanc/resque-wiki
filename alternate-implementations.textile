@@ -14,3 +14,7 @@ h1. Resque Clients
 
 * "Python Resque Client":http://gist.github.com/225369
 * "Perl Resque Client":http://gist.github.com/225398
+
+h1. Resque-Web
+
+* "gresrun / jesque-web":https://github.com/gresrun/jesque-web - Java (WAR)
