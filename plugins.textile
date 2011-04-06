@@ -23,9 +23,10 @@
 * "jayniz / resque-loner":http://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 * "ono / resque-cleaner":http://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
 * "nevans / resque-pool":http://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
-* "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected 
-("gem":https://rubygems.org/gems/resque-ensure-connected)
+* "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected ("gem":https://rubygems.org/gems/resque-ensure-connected)
 * "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
 * "jamster / resque-statsd":https://github.com/jamster/resque-statsd ("gem":https://rubygems.org/gems/resque-statsd)
 * "wr0ngway / resque-dynamic-queues":https://github.com/wr0ngway/resque-dynamic-queues ("gem":https://rubygems.org/gems/resque-dynamic-queues)
+* "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
+
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
