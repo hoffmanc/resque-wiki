@@ -10,7 +10,7 @@ Using multiple failure backends is also useful. For example, you may want to get
 pre. require 'resque/failure/multiple'
 require 'resque/failure/hoptoad'
 require 'resque/failure/redis'
-Resque::Failure::Hoptoad.configure do |config|
+HoptoadNotifier.configure do |config|
   config.api_key = 'fc49503482dec7bf13eda286c99ab2bf'
   config.secure = true
 end
