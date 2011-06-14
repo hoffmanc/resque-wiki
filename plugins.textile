@@ -28,5 +28,6 @@
 * "jamster / resque-statsd":https://github.com/jamster/resque-statsd ("gem":https://rubygems.org/gems/resque-statsd)
 * "wr0ngway / resque-dynamic-queues":https://github.com/wr0ngway/resque-dynamic-queues ("gem":https://rubygems.org/gems/resque-dynamic-queues)
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
+* "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
 
 Write your own: "PLUGINS":http://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
