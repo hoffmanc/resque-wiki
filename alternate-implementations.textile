@@ -1,3 +1,4 @@
+* "streamio / mongo-resque":https://github.com/streamio/mongo-resque - MongoDB instead of Redis
 * "binarydud / pyres":http://github.com/binarydud/pyres/ - Python
 * "samuel / dreque":http://github.com/samuel/dreque/ - Python
 * "rphillips / resque-c":http://github.com/rphillips/resque-c - C
