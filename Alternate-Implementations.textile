@@ -1,0 +1,21 @@
+* "streamio / mongo-resque":https://github.com/streamio/mongo-resque - MongoDB instead of Redis
+* "binarydud / pyres":http://github.com/binarydud/pyres/ - Python
+* "samuel / dreque":https://github.com/samuel/dreque/ - Python
+* "rphillips / resque-c":https://github.com/rphillips/resque-c - C
+* "jamesgolick / scala-resque-worker":https://github.com/jamesgolick/scala-resque-worker - Scala
+* "gresrun / jesque":https://github.com/gresrun/jesque - Java
+* "chad / resque-sharp":https://github.com/chad/resque-sharp - .NET
+* "joshholt / Nodeq":https://github.com/joshholt/Nodeq/ - node.js
+* "jbr / node-resque":https://github.com/jbr/node-resque/ - node.js
+* "chrisboulton / php-resque":https://github.com/chrisboulton/php-resque - PHP
+* "plukevdh / kthxbye":https://github.com/plukevdh/kthxbye - Ruby
+* "technoweenie / coffee-resque":https://github.com/technoweenie/coffee-resque - Coffeescript/Node.js
+
+h1. Resque Clients
+
+* "Python Resque Client":https://gist.github.com/225369
+* "Perl Resque Client":https://gist.github.com/225398
+
+h1. Resque-Web
+
+* "gresrun / jesque-web":https://github.com/gresrun/jesque-web - Java (WAR)
