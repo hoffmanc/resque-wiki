@@ -31,5 +31,7 @@
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
 * "wandenberg / resque-pause":https://github.com/wandenberg/resque-pause ("gem":https://rubygems.org/gems/resque-pause)
+* "alanpeabody / resque-job-stats":https://github.com/alanpeabody/resque-job-stats ("gem":https://rubygems.org/gems/resque-job-stats)
+
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
