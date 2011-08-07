@@ -32,6 +32,7 @@
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
 * "wandenberg / resque-pause":https://github.com/wandenberg/resque-pause ("gem":https://rubygems.org/gems/resque-pause)
 * "alanpeabody / resque-job-stats":https://github.com/alanpeabody/resque-job-stats ("gem":https://rubygems.org/gems/resque-job-stats)
+* "endel / resque-swapper":https://github.com/endel/resque-swapper ("gem":https://rubygems.org/gems/resque-swapper)
 
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
