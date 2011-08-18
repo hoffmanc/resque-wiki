@@ -18,6 +18,8 @@ Are you using **newrelic_rpm**? This is a known bug: <https://github.com/defunkt
 
 ## What's the best way to restart workers using capistrano?
 
+### With Foreman and Upstart
+
 This may not be the "best" way, but it's an option.  You can manage resque and any of the other services your app runs with foreman (using upstart or init scripts on the remote server).  See "[Managing and monitoring your Ruby application with Foreman and Upstart](http://michaelvanrooijen.com/articles/2011/06/08-managing-and-monitoring-your-ruby-application-with-foreman-and-upstart/)" for a great guide on getting Foreman running.  Once that's done, here's a sample cap task to manage your processes:
 
 ```
@@ -49,6 +51,14 @@ namespace :foreman do
   end 
 end
 ```
+
+### Graceful Shutdown
+
+When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you have to send `QUIT` signal to the existing resque worker process so that the worker process will stop gracefully.
+
+If you use a monitoring tool to restart, check which signal it sends to stop a worker process. If it sends `KILL` signal, the job running would be just halted and it would NOT even be reported as a failure job. You would not notice that some end users are suffering from that.
+
+Check out [Readme](https://github.com/defunkt/resque/blob/master/README.markdown) to know more how Resque worker responds signals.
 
 ## How do I ensure my Rails classes/environment is loaded?
 
