@@ -6,7 +6,8 @@ Simply edit this page and add your question to the bottom in the following forma
 
 ## How do you pronounce Resque?
 
-"Resque (pronounced like "rescue") is a Redis-backed library for creating background jobs, placing those jobs on multiple queues, and processing them later." (from the README)  
+No answer.
+```
 
 
 Someone will (hopefully) fill in the answer.
