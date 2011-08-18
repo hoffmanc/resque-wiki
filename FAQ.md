@@ -15,7 +15,39 @@ Someone will (hopefully) fill in the answer.
 Are you using **newrelic_rpm**? This is a known bug: <https://github.com/defunkt/resque/issues/180>
 
 ## What's the best way to restart workers using capistrano?
-No answer.
+
+This may not be the "best" way, but it's an option.  You can manage resque and any of the other services your app runs with foreman (using upstart or init scripts on the remote server).  See "[Managing and monitoring your Ruby application with Foreman and Upstart](http://michaelvanrooijen.com/articles/2011/06/08-managing-and-monitoring-your-ruby-application-with-foreman-and-upstart/)" for a great guide on getting Foreman running.  Once that's done, here's a sample cap task to manage your processes:
+
+```
+namespace :foreman do
+  desc "Start the application services"
+  task :start, :roles => :app do
+    sudo "start #{application}"
+  end
+
+  desc "Stop the application services"
+  task :stop, :roles => :app do
+    sudo "stop #{application}"
+  end
+
+  desc "Restart the application services"
+  task :restart, :roles => :app do
+    run "sudo start #{application} || sudo restart #{application}"
+  end
+
+  desc "Display logs for a certain process - arg example: PROCESS=web-1"
+  task :logs, :roles => :app do
+    run "cd #{current_path}/log && cat #{ENV["PROCESS"]}.log"
+  end
+
+  desc "Export the Procfile to upstart scripts"
+  task :export, :roles => :app do
+    # 5 resque workers, 1 resque scheduler
+    run "cd #{release_path} && rvmsudo bundle exec foreman export upstart /etc/init -a #{application} -u #{user} -l #{shared_path}/log  -f #{release_path}/Procfile.production -c worker=5 scheduler=1"
+  end 
+end
+```
+
 ## How do I ensure my Rails classes/environment is loaded?
 
 Make sure you start your workers by specifying ```environment``` as part of your rake execution, e.g. 
