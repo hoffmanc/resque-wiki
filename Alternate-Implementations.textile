@@ -10,6 +10,7 @@
 * "chrisboulton / php-resque":https://github.com/chrisboulton/php-resque - PHP
 * "plukevdh / kthxbye":https://github.com/plukevdh/kthxbye - Ruby
 * "technoweenie / coffee-resque":https://github.com/technoweenie/coffee-resque - Coffeescript/Node.js
+* "jxa / resque-clojure":https://github.com/jxa/resque-clojure - Clojure
 
 h1. Resque Clients
 
