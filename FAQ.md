@@ -70,7 +70,7 @@ QUEUE=* rake environment resque:work
 
 Some users also see issues where Rails models are lazy-loaded in the Job execution and due to some internal class loading wackiness this results in LoadErrors or Uninitialized Constant exceptions. This can be solved by forcing ActiveRecord models to load, by creating a ```lib/tasks/resque.rake```
 
-```
+``` ruby
 # load the Rails app all the time
 namespace :resque do
   puts "Loading Rails environment for Resque"
@@ -78,3 +78,35 @@ namespace :resque do
   ActiveRecord::Base.send(:descendants).each { |klass|  klass.columns }
 end
 ```
+
+## How to make Resque job to wait for ActiveRecord transaction commit, so that it see all changes made by that transaction?
+
+The first way is enqueue job only in `after_commit` hook in models.
+But `after_commit` solves the problem only in model create/update use case . In general task should be put to redis only after all transactions get closed. Otherwise serious problems may appear.
+
+In order to do that use [ar_after_transaction](https://github.com/grosser/ar_after_transaction) gem that provides `after_transaction` hook whenever you need it:
+
+``` ruby
+ActiveRecord::Base.after_transaction do
+  Resque.enqueue(SyncronizationWithGithubWorker, asset.id)
+end 
+```
+
+
+If you want to keep entire team free from knowledge about transaction isolation level and this problem, you should monkey patch `Resque.enqueue` to be performed always after transaction completes.
+
+``` ruby
+require 'ar_after_transaction'
+require 'resque'
+Resque.class_eval do
+  class << self
+    alias_method :enqueue_without_transaction, :enqueue
+    def enqueue(*args)
+      ActiveRecord::Base.after_transaction do
+        enqueue_without_transaction(*args)
+      end
+    end
+  end
+end
+```
+
