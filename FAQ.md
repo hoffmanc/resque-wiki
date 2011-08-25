@@ -54,9 +54,7 @@ end
 
 ### Graceful Shutdown
 
-When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you have to send `QUIT` signal to the existing resque worker process so that the worker process will stop gracefully.
-
-If you use a monitoring tool to restart, check which signal it sends to stop a worker process. If it sends `KILL` signal, the job running would be just halted and it would NOT even be reported as a failure job. You would not notice that some end users are suffering from that.
+When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you better send `QUIT` signal to the existing resque worker process so that the worker process will stop gracefully.
 
 Check out [Readme](https://github.com/defunkt/resque/blob/master/README.markdown) to know more how Resque worker responds signals.
 
