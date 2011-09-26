@@ -36,6 +36,7 @@
 * "endel / resque-swapper":https://github.com/endel/resque-swapper ("gem":https://rubygems.org/gems/resque-swapper)
 * "forward / resque_utils":https://github.com/forward/resque_utils ("gem":https://rubygems.org/gems/resque_utils)
 * "rykov / resque-delay":https://github.com/rykov/resque-delay ("gem":https://rubygems.org/gems/resque-delay)
+* "samgranieri / resque-jobs-per-fork":https://github.com/samgranieri/resque-jobs-per-fork ("gem":https://rubygems.org/gems/resque-jobs-per-fork)
 
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
