@@ -72,8 +72,9 @@ Some users also see issues where Rails models are lazy-loaded in the Job executi
 # load the Rails app all the time
 namespace :resque do
   puts "Loading Rails environment for Resque"
-  task :setup => :environment
-  ActiveRecord::Base.descendants.each { |klass|  klass.columns }
+  task :setup => :environment do
+    ActiveRecord::Base.descendants.each { |klass|  klass.columns }
+  end
 end
 ```
 
