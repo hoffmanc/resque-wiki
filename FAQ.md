@@ -73,7 +73,7 @@ Some users also see issues where Rails models are lazy-loaded in the Job executi
 namespace :resque do
   puts "Loading Rails environment for Resque"
   task :setup => :environment
-  ActiveRecord::Base.send(:descendants).each { |klass|  klass.columns }
+  ActiveRecord::Base.descendants.each { |klass|  klass.columns }
 end
 ```
 
