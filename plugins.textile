@@ -37,6 +37,7 @@
 * "forward / resque_utils":https://github.com/forward/resque_utils ("gem":https://rubygems.org/gems/resque_utils)
 * "rykov / resque-delay":https://github.com/rykov/resque-delay ("gem":https://rubygems.org/gems/resque-delay)
 * "samgranieri / resque-jobs-per-fork":https://github.com/samgranieri/resque-jobs-per-fork ("gem":https://rubygems.org/gems/resque-jobs-per-fork)
+* "elucid / resque-delayed":https://github.com/elucid/resque-delayed ("gem":https://rubygems.org/gems/resque-delayed)
 
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
