@@ -109,3 +109,6 @@ Resque.class_eval do
 end
 ```
 
+## How do I override the views when mounted in a rails app?
+
+No answer.
