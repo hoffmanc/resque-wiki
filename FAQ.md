@@ -109,10 +109,11 @@ Resque.class_eval do
 end
 ```
 
-## How do I override the views when mounted in a rails app?
-
-No answer.
 
 ## How do I print SQL statements in resque?
+
+Add `ActiveRecord::Base.logger = Logger.new(STDOUT)` to your ruby class.
+
+## How do I override the views when mounted in a rails app?
 
 No answer.
