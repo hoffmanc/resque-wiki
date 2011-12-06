@@ -112,3 +112,7 @@ end
 ## How do I override the views when mounted in a rails app?
 
 No answer.
+
+## How do I print SQL statements in resque?
+
+No answer.
