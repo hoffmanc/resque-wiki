@@ -10,7 +10,6 @@ Simply edit this page and add your question to the bottom in the following forma
 ```
 
 
-Someone will (hopefully) fill in the answer.
 
 ## My workers are getting stuck in a weird state.
 
