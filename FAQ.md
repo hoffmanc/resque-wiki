@@ -6,7 +6,7 @@ Simply edit this page and add your question to the bottom in the following forma
 
 ## How do you pronounce Resque?
 
-No answer.
+/ˈreskyo͞o/
 ```
 
 
