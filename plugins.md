@@ -29,6 +29,7 @@
 * "frausto / resque-director":https://github.com/frausto/resque-director ("gem":https://rubygems.org/gems/resque-director)
 * "jamster / resque-statsd":https://github.com/jamster/resque-statsd ("gem":https://rubygems.org/gems/resque-statsd)
 * "wr0ngway / resque-dynamic-queues":https://github.com/wr0ngway/resque-dynamic-queues ("gem":https://rubygems.org/gems/resque-dynamic-queues)
+* "wr0ngway / resque-queue-priority":https://github.com/wr0ngway/resque-queue-priority ("gem":https://rubygems.org/gems/resque-queue-priority)
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
 * "wandenberg / resque-pause":https://github.com/wandenberg/resque-pause ("gem":https://rubygems.org/gems/resque-pause)
