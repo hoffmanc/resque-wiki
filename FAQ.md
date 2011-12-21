@@ -116,3 +116,7 @@ Add `ActiveRecord::Base.logger = Logger.new(STDOUT)` to your ruby class.
 ## How do I override the views when mounted in a rails app?
 
 No answer.
+
+## Why might Resque be serving up completely blank asset files (CSS & JS) when used with Rails 3.1? 
+
+No answer.
