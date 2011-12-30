@@ -26,6 +26,7 @@
 * "nevans / resque-pool":https://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
 * "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected ("gem":https://rubygems.org/gems/resque-ensure-connected)
 * "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
+* "frausto / resque-remora":https://github.com/frausto/resque-remora ("gem":https://rubygems.org/gems/resque-remora)
 * "frausto / resque-director":https://github.com/frausto/resque-director ("gem":https://rubygems.org/gems/resque-director)
 * "jamster / resque-statsd":https://github.com/jamster/resque-statsd ("gem":https://rubygems.org/gems/resque-statsd)
 * "wr0ngway / resque-dynamic-queues":https://github.com/wr0ngway/resque-dynamic-queues ("gem":https://rubygems.org/gems/resque-dynamic-queues)
