@@ -32,4 +32,4 @@ RSpec.configure do |config|
 end
 ```
 
-You might also like [mock_redis](https://github.com/causes/mock_redis) if you don't need full-on live integration tests all the time.
+You might also like [mock_redis](https://github.com/causes/mock_redis) if you don't need full-on live integration tests all the time (but you might also just have `Resque.inline` set for most of your test suite).
