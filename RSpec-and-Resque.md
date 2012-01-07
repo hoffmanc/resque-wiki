@@ -30,5 +30,6 @@ RSpec.configure do |config|
     }
   end
 end
-
 ```
+
+You might also like [mock_redis](https://github.com/causes/mock_redis) if you don't need full-on live integration tests all the time.
