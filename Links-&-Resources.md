@@ -1,0 +1,1 @@
+[Using daemon-spawn gem to manage Resque](http://atevans.com/setting-up-resque)
