@@ -1,6 +1,6 @@
 * "streamio / mongo-resque":https://github.com/streamio/mongo-resque - MongoDB instead of Redis
 * "binarydud / pyres":http://github.com/binarydud/pyres/ - Python
-* "samuel / dreque":https://github.com/samuel/dreque/ - Python
+* "henriklied / dreque":https://github.com/henriklied/dreque - Python
 * "rphillips / resque-c":https://github.com/rphillips/resque-c - C
 * "jamesgolick / scala-resque-worker":https://github.com/jamesgolick/scala-resque-worker - Scala
 * "gresrun / jesque":https://github.com/gresrun/jesque - Java
