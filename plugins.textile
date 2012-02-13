@@ -43,6 +43,6 @@
 * "kmullin / resque-sliders":https://github.com/kmullin/resque-sliders ("gem":https://rubygems.org/gems/resque-sliders)
 * "aaw / resque-heroku-scaling-canary":https://github.com/aaw/resque-heroku-scaling-canary ("gem":https://rubygems.org/gems/resque-heroku-scaling-canary)
 * "gip / resque-telework":https://github.com/gip/resque-telework
-* "aaw / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room) 
+* "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room) 
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
