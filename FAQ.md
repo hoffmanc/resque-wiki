@@ -9,7 +9,7 @@ Simply edit this page and add your question to the bottom in the following forma
 /ˈreskyo͞o/
 ```
 
-## How to perform the same job on all connected workers?
+## How to perform the same job on all the connected workers?
 For example, Perform a disk space check on every machine in a cluster, every machine will runs a worker.
 
 
