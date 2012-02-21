@@ -122,3 +122,21 @@ No answer.
 ## Why might Resque be serving up completely blank asset files (CSS & JS) when used with Rails 3.1? 
 
 No answer.
+
+## How to work arount "MySQL server has gone away" error ?
+
+In your `perform` method add the following line:
+
+``` ruby
+class MyTask
+  def perform
+    ActiveRecord::Base.verify_active_connections!
+
+    # rest of your code
+  end
+end
+```
+
+The Rails doc says the following about `verify_active_connections!`:
+
+    Verify active connections and remove and disconnect connections associated with stale threads.
