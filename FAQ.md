@@ -123,7 +123,7 @@ No answer.
 
 No answer.
 
-## How to work arount "MySQL server has gone away" error ?
+## How to work around "MySQL server has gone away" error ?
 
 In your `perform` method add the following line:
 
