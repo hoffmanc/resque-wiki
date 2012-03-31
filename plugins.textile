@@ -46,5 +46,7 @@
 * "gip / resque-telework":https://github.com/gip/resque-telework
 * "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room) 
 * "coupa / resque-round-robin":https://github.com/coupa/resque-round-robin
+* "ilyakatz / resque-history":https://github.com/ilyakatz/resque-history
+("gem":https://rubygems.org/gems/resque-history)
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
