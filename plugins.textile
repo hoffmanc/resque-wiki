@@ -24,6 +24,7 @@
 * "jayniz / resque-loner":https://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 * "ono / resque-cleaner":https://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
 * "nevans / resque-pool":https://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
+* "mpasternacki / resque-pool-dynamic":https://github.com/mpasternacki/resque-pool-dynamic ("gem":http://rubygems.org/gems/resque-pool-dynamic)
 * "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected ("gem":https://rubygems.org/gems/resque-ensure-connected)
 * "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
 * "frausto / resque-remora":https://github.com/frausto/resque-remora ("gem":https://rubygems.org/gems/resque-remora)
