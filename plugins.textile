@@ -1,55 +1,107 @@
 * "quirkey / resque-status":https://github.com/quirkey/resque-status ("gem":http://gemcutter.org/gems/resque-status)
+extension to the resque queue system that provides simple trackable jobs.
 * "bvandenbos / resque-scheduler":https://github.com/bvandenbos/resque-scheduler ("gem":http://gemcutter.org/gems/resque-scheduler)
+A light-weight job scheduling system built on top of resque
 * "zapnap / resque_mailer":https://github.com/zapnap/resque_mailer ("gem":http://gemcutter.org/gems/resque_mailer)
+Rails plugin for sending asynchronous email with ActionMailer and Resque
 * "fphilipe / resque-async_deliver":https://github.com/fphilipe/resque-async_deliver ("gem":http://rubygems.org/gems/resque-async_deliver)
+Deliver mails asynchronously using Resque without explicitly creating a performable job.
 * "sickill / merb-resque-mailer":https://github.com/sickill/merb-resque-mailer ("gem":http://gemcutter.org/gems/merb-resque-mailer)
-* "jstorimer / delayed_paperclip":https://github.com/jstorimer/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip) 
+Merb plugin for putting mail delivery jobs onto Resque queue
+* "jstorimer / delayed_paperclip":https://github.com/jstorimer/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip)
+Process your Paperclip attachments in the background with delayed_job or Resque.
 * "bitbckt / resque-lifecycle":https://github.com/bitbckt/resque-lifecycle ("gem":http://rubygems.org/gems/resque-lifecycle)
+Lifecycle management for Resque jobs
 * "scotttam / resque-throttle":https://github.com/scotttam/resque-throttle ("gem":http://rubygems.org/gems/resque-throttle)
+Restrict the frequency in which certain jobs are run
 * "staugaard / resque-multi-job-forks":https://github.com/staugaard/resque-multi-job-forks ("gem":http://rubygems.org/gems/resque-multi-job-forks)
+Have your resque workers process more that one job
 * "defunkt / resque-lock":https://github.com/defunkt/resque-lock ("gem":http://rubygems.org/gems/resque-lock)
+Ensure only one instance of your job is running at a time
 * "flyerhzm / resque-restriction":https://github.com/flyerhzm/resque-restriction ("gem":http://rubygems.org/gems/resque-restriction)
+resque-restriction is an extension to resque queue system that restricts the execution number of certain jobs in a period time
 * "lantins / resque-retry":https://github.com/lantins/resque-retry ("gem":http://rubygems.org/gems/resque-retry)
+Provides retry, delay and exponential backoff support for resque jobs
 * "lantins / resque-lock-timeout":https://github.com/lantins/resque-lock-timeout ("gem":http://rubygems.org/gems/resque-lock-timeout)
+Adds locking, with optional timeout/deadlock handling to resque jobs
 * "justinweiss / resque_unit":https://github.com/justinweiss/resque_unit ("gem":http://rubygems.org/gems/resque_unit)
+Test::Unit assertions for code that enqueues Resque jobs
 * "kdonovan / resque-access_worker_from_job":https://github.com/kdonovan/resque-access_worker_from_job ("gem":http://rubygems.org/gems/resque-access_worker_from_job)
+Resque plugin allowing jobs to access to their calling worker at runtime (and thus to share sockets)
 * "idris / resque-progress":https://github.com/idris/resque-progress ("gem":http://rubygems.org/gems/resque-progress)
+Extension to resque, using resque-meta, which provides status tracking
 * "iwarshak / resque-batchworker":https://github.com/iwarshak/resque-batchworker ("gem":http://rubygems.org/gems/resque-batchworker)
+A plugin for Resque that forks X children, processes all jobs in the queue and all processes quit when there are no more jobs to complete
 * "lmarlow / resque-meta":https://github.com/lmarlow/resque-meta ("gem":http://rubygems.org/gems/resque-meta)
+Add metadata to your jobs
 * "lmarlow / resque-result":https://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
+fetch the result from a job's perform method
 * "leshill / resque_spec":https://github.com/leshill/resque_spec ("gem":http://rubygems.org/gems/resque_spec)
+RSpec matcher for Resque
 * "pezra / resque-fairly":https://github.com/pezra/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
+Handle jobs with predictable latency regardless of the queue the jobs are placed in
 * "pezra / resque-multi-step":https://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
+Provides multi-step tasks with finalization and progress tracking
 * "drfeelngood / resque-batched-job":https://github.com/drfeelngood/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
+Resque plugin that understands individual jobs can belong to something bigger than themselves
 * "jayniz / resque-loner":https://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
+Support for unique jobs in defunkt/resque: Only one job with the same payload per queue
 * "ono / resque-cleaner":https://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
+maintains the cleanliness of failed jobs on Resque
 * "nevans / resque-pool":https://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
+quickly fork a pool resque workers, saving memory (w/REE) and monitoring their uptime
 * "mpasternacki / resque-pool-dynamic":https://github.com/mpasternacki/resque-pool-dynamic ("gem":http://rubygems.org/gems/resque-pool-dynamic)
+A dynamic manager for resque pool
 * "wireframe / resque-ensure-connected":https://github.com/wireframe/resque-ensure-connected ("gem":https://rubygems.org/gems/resque-ensure-connected)
+verify active record connections are active before performing work
 * "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
+Resque plugin to autoscale your workers on Heroku
 * "frausto / resque-remora":https://github.com/frausto/resque-remora ("gem":https://rubygems.org/gems/resque-remora)
+resque plugin that allows you to add information to the payload of each enqueued job and retrieve it when it gets popped of the queue
 * "frausto / resque-director":https://github.com/frausto/resque-director ("gem":https://rubygems.org/gems/resque-director)
+A resque plugin for auto scaling workers
 * "jamster / resque-statsd":https://github.com/jamster/resque-statsd ("gem":https://rubygems.org/gems/resque-statsd)
+Resque Statsd is a Resque plugin that will collect and send data samples from your Resque Jobs to Graphite
 * "wr0ngway / resque-dynamic-queues":https://github.com/wr0ngway/resque-dynamic-queues ("gem":https://rubygems.org/gems/resque-dynamic-queues)
+A resque plugin for specifying the queues a worker pulls from with wildcards, negations, or dynamic look up from redis
 * "wr0ngway / resque-queue-priority":https://github.com/wr0ngway/resque-queue-priority ("gem":https://rubygems.org/gems/resque-queue-priority)
+A resque plugin for specifying the priority between queues that workers use to determine what to work on next
 * "wr0ngway / graylog2-resque":https://github.com/wr0ngway/graylog2-resque ("gem":https://rubygems.org/gems/graylog2-resque)
+A resque failure handler that sends failures to the graylog2 log management facility
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
+Resque plugin to allow (de)queueing of jobs without having the class loaded
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
+Make Active Record instance methods asynchronous using resque
 * "wandenberg / resque-pause":https://github.com/wandenberg/resque-pause ("gem":https://rubygems.org/gems/resque-pause)
+A Resque plugin to add functionality to pause resque jobs through the web interface
 * "alanpeabody / resque-job-stats":https://github.com/alanpeabody/resque-job-stats ("gem":https://rubygems.org/gems/resque-job-stats)
+Job-centric stats for resque
 * "endel / resque-swapper":https://github.com/endel/resque-swapper ("gem":https://rubygems.org/gems/resque-swapper)
+Swapping tool for Resque server on runtime
 * "forward / resque_utils":https://github.com/forward/resque_utils ("gem":https://rubygems.org/gems/resque_utils)
+Capistrano helper tasks for Resque (requeue & remove failed jobs)
 * "rykov / resque-delay":https://github.com/rykov/resque-delay ("gem":https://rubygems.org/gems/resque-delay)
+Delayed job queueing for Resque
 * "samgranieri / resque-jobs-per-fork":https://github.com/samgranieri/resque-jobs-per-fork ("gem":https://rubygems.org/gems/resque-jobs-per-fork)
+Have your resque workers process more that one job
 * "elucid / resque-delayed":https://github.com/elucid/resque-delayed ("gem":https://rubygems.org/gems/resque-delayed)
+Delayed job queueing for Resque
 * "kmullin / resque-sliders":https://github.com/kmullin/resque-sliders ("gem":https://rubygems.org/gems/resque-sliders)
+A Resque plugin that enables complete control over your running Resque Workers, all from the Resque-Web UI
 * "aaw / resque-heroku-scaling-canary":https://github.com/aaw/resque-heroku-scaling-canary ("gem":https://rubygems.org/gems/resque-heroku-scaling-canary)
+A resque plugin that scales heroku workers for batch jobs
 * "gip / resque-telework":https://github.com/gip/resque-telework
-* "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room) 
+A Resque plugin aimed at workers management on remote hosts
+* "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room)
+Resque plugin that throttles your jobs
 * "coupa / resque-round-robin":https://github.com/coupa/resque-round-robin
+resque plugin that modifies workers to pull jobs off queues
 * "ilyakatz / resque-history":https://github.com/ilyakatz/resque-history("gem":https://rubygems.org/gems/resque-history)
+Show history of recently executed resque jobsqueues
 * "wallace / resque-lonely_job":https://github.com/wallace/resque-lonely_job ("gem":http://rubygems.org/gems/resque-lonely_job)
+Show history of recently executed resque jobs
 * "KensoDev / perform_later":https://github.com/kensodev/perform_later ("gem":http://rubygems.org/gems/perform_later)
+Methods to queue any method in any class or instance with no need for additional Worker class and no extra code
 
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
