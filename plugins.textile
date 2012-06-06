@@ -102,6 +102,8 @@ Show history of recently executed resque jobsqueues
 Show history of recently executed resque jobs
 * "KensoDev / perform_later":https://github.com/kensodev/perform_later ("gem":http://rubygems.org/gems/perform_later)
 Methods to queue any method in any class or instance with no need for additional Worker class and no extra code
-
+* "eclubb / resque-approval":https://github.com/eclubb/resque-approval
+("gem":http://rubygems.org/gems/resque-approval)
+Allows jobs to be sent to a temporary queue to await approval. Once the job is approved, it is placed on its normal queue.
 
 Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
