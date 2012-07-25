@@ -19,7 +19,7 @@ Have your resque workers process more that one job
 * "defunkt / resque-lock":https://github.com/defunkt/resque-lock ("gem":http://rubygems.org/gems/resque-lock)
 Ensure only one instance of your job is running at a time
 * "bartolsthoorn / resque-workers-lock":https://github.com/bartolsthoorn/resque-workers-lock ("gem":https://rubygems.org/gems/resque-workers-lock)
-Two or more jobs with the same lock cannot be processed simultaneously by two or more workers. When this situation occurs the second job gets pushed back to the queue.
+Two or more jobs with the same lock cannot be processed simultaneously by multiple workers
 * "flyerhzm / resque-restriction":https://github.com/flyerhzm/resque-restriction ("gem":http://rubygems.org/gems/resque-restriction)
 resque-restriction is an extension to resque queue system that restricts the execution number of certain jobs in a period time
 * "lantins / resque-retry":https://github.com/lantins/resque-retry ("gem":http://rubygems.org/gems/resque-retry)
