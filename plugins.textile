@@ -92,7 +92,7 @@ Delayed job queueing for Resque
 A Resque plugin that enables complete control over your running Resque Workers, all from the Resque-Web UI
 * "aaw / resque-heroku-scaling-canary":https://github.com/aaw/resque-heroku-scaling-canary ("gem":https://rubygems.org/gems/resque-heroku-scaling-canary)
 A resque plugin that scales heroku workers for batch jobs
-* "gip / resque-telework":https://github.com/gip/resque-telework
+* "gip / resque-telework":https://github.com/gip/resque-telework ("gem":https://rubygems.org/gems/resque-telework)
 A resque plugin aimed at workers management on remote hosts (so that you can start/stop/pause your workers from the UI)
 * "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room)
 Resque plugin that throttles your jobs
