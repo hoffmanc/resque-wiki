@@ -99,9 +99,9 @@ Resque plugin that throttles your jobs
 * "coupa / resque-round-robin":https://github.com/coupa/resque-round-robin
 resque plugin that modifies workers to pull jobs off queues
 * "ilyakatz / resque-history":https://github.com/ilyakatz/resque-history("gem":https://rubygems.org/gems/resque-history)
-Show history of recently executed resque jobsqueues
-* "wallace / resque-lonely_job":https://github.com/wallace/resque-lonely_job ("gem":http://rubygems.org/gems/resque-lonely_job)
 Show history of recently executed resque jobs
+* "wallace / resque-lonely_job":https://github.com/wallace/resque-lonely_job ("gem":http://rubygems.org/gems/resque-lonely_job)
+Ensures that only one job for a given queue will be running on any worker at a given time
 * "KensoDev / perform_later":https://github.com/kensodev/perform_later ("gem":http://rubygems.org/gems/perform_later)
 Methods to queue any method in any class or instance with no need for additional Worker class and no extra code
 * "eclubb / resque-approval":https://github.com/eclubb/resque-approval ("gem":http://rubygems.org/gems/resque-approval)
