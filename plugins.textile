@@ -82,6 +82,8 @@ Job-centric stats for resque
 Swapping tool for Resque server on runtime
 * "forward / resque_utils":https://github.com/forward/resque_utils ("gem":https://rubygems.org/gems/resque_utils)
 Capistrano helper tasks for Resque (requeue & remove failed jobs)
+* "sshingler / capistrano-resque":https://github.com/sshingler/capistrano-resque ("gem":https://rubygems.org/gems/capistrano-resque)
+Capistrano integration for Resque
 * "rykov / resque-delay":https://github.com/rykov/resque-delay ("gem":https://rubygems.org/gems/resque-delay)
 Delayed job queueing for Resque
 * "samgranieri / resque-jobs-per-fork":https://github.com/samgranieri/resque-jobs-per-fork ("gem":https://rubygems.org/gems/resque-jobs-per-fork)
