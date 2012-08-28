@@ -112,4 +112,5 @@ Delayed job queueing for Resque
 * "samgranieri / resque-jobs-per-fork":https://github.com/samgranieri/resque-jobs-per-fork ("gem":https://rubygems.org/gems/resque-jobs-per-fork)
 Have your resque workers process more that one job
 
+
 h3. Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
