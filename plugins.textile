@@ -72,6 +72,8 @@ Ensures that only one job for a given queue will be running on any worker at a g
 Methods to queue any method in any class or instance with no need for additional Worker class and no extra code
 * "eclubb / resque-approval":https://github.com/eclubb/resque-approval ("gem":http://rubygems.org/gems/resque-approval)
 Allows jobs to be sent to a temporary queue to await approval. Once the job is approved, it is placed on its normal queue.
+* "ticktricktrack / resque-web_no_act":https://github.com/ticktricktrack/resque-web_no_act ("gem":http://rubygems.org/gems/resque-web_no_act)
+A child-proofed version of the Resque web interface that's safe to use by less trustworthy personnel.
 
 h3. Unmaintained for more than one year:
 
