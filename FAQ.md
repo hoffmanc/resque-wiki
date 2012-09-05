@@ -140,3 +140,5 @@ end
 The Rails doc says the following about `verify_active_connections!`:
 
     Verify active connections and remove and disconnect connections associated with stale threads.
+
+## How to make resque to use redis password?
