@@ -8,6 +8,10 @@
 * Automatically detect presence of a `Gemfile.lock` and invoke `bundle exec`.
 * Target Ubuntu 12 LTS at first.
 
+## Prototype
+
+A prototype Ubuntu init.d script for resque can be found in [postmodern fork](https://github.com/postmodern/resque/tree/init.d) [here](https://github.com/postmodern/resque/blob/init.d/examples/ubuntu/init.d/resque). This script is currently running in development on a Ubuntu 12.04 LTS VM.
+
 ## Existing solutions
 
 * https://gist.github.com/1724049
