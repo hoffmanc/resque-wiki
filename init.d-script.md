@@ -4,7 +4,7 @@
 
 * Support spawning `resque:workers` for multiple apps.
 * Support loading custom environment variables from a config file within each app.
-* Support tracking pids in `/var/run/resque`.
+* Support tracking pids via `/var/run/resque/$app-$N.pid` files.
 * Automatically detect presence of a `Gemfile.lock` and invoke `bundle exec`.
 * Target Ubuntu 12 LTS at first.
 
