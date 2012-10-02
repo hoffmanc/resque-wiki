@@ -129,7 +129,7 @@ In your `perform` method add the following line:
 
 ``` ruby
 class MyTask
-  def perform
+  def self.perform
     ActiveRecord::Base.verify_active_connections!
 
     # rest of your code
