@@ -10,7 +10,7 @@ Simply edit this page and add your question to the bottom in the following forma
 ```
 
 ## How to perform the same job on all the connected workers?
-For example, Perform a disk space check on every machine in a cluster, every machine will runs a worker.
+For example, Perform a disk space check on every machine in a cluster, every machine will run a worker.
 
 
 ## My workers are getting stuck in a weird state.
