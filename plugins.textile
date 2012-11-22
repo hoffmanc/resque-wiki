@@ -45,6 +45,7 @@ A resque failure handler that sends failures to the graylog2 log management faci
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
 Resque plugin to allow (de)queueing of jobs without having the class loaded
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
+* "joel / resque-async-method-enhanced":https://github.com/joel/resque-async-method-enhanced ("gem":https://rubygems.org/gems/resque-async-method-enhanced)
 Make Active Record instance methods asynchronous using resque
 * "alanpeabody / resque-job-stats":https://github.com/alanpeabody/resque-job-stats ("gem":https://rubygems.org/gems/resque-job-stats)
 Job-centric stats for resque
