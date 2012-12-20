@@ -2,26 +2,24 @@
 
 Simply edit this page and add your question to the bottom in the following format:
 
-``` markdown
-
 ## How do you pronounce Resque?
 
 /ˈreskyo͞o/
-```
 
-## How to perform the same job on all the connected workers?
-For example, Perform a disk space check on every machine in a cluster, every machine will run a worker.
+## How do you perform the same job on all connected workers?
 
+For example, perform a disk space check on every machine in a cluster, every machine will run a worker.
 
 ## My workers are getting stuck in a weird state.
 
-Are you using **newrelic_rpm**? This is a known bug: <https://github.com/defunkt/resque/issues/180>
+Are you using **newrelic_rpm**?
+This is a known bug: <https://github.com/defunkt/resque/issues/180>
 
 ## What's the best way to restart workers using capistrano?
 
 ### With Foreman and Upstart
 
-This may not be the "best" way, but it's an option.  You can manage resque and any of the other services your app runs with foreman (using upstart or init scripts on the remote server).  See "[Managing and monitoring your Ruby application with Foreman and Upstart](http://michaelvanrooijen.com/articles/2011/06/08-managing-and-monitoring-your-ruby-application-with-foreman-and-upstart/)" for a great guide on getting Foreman running.  Once that's done, here's a sample cap task to manage your processes:
+This may not be the _best_ way, but it's an option.  You can manage resque, and any other services your app runs, with foreman; by using upstart or init scripts on the remote server.  See "[Managing and monitoring your Ruby application with Foreman and Upstart](http://michaelvanrooijen.com/articles/2011/06/08-managing-and-monitoring-your-ruby-application-with-foreman-and-upstart/)" for a guide on getting Foreman running.  Once that's done, here's a sample cap task to manage your processes:
 
 ```
 namespace :foreman do
@@ -55,19 +53,21 @@ end
 
 ### Graceful Shutdown
 
-When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you better send `QUIT` signal to the existing resque worker process so that the worker process will stop gracefully.
+When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you must send the `QUIT` signal to the existing resque worker process. This will stop the worker process gracefully.
 
-Check out [Readme](https://github.com/defunkt/resque/blob/master/README.md) to know more how Resque worker responds signals.
+Check out [Readme](https://github.com/defunkt/resque/blob/master/README.md) to learn more about how Resque workers respond to signals.
 
 ## How do I ensure my Rails classes/environment is loaded?
 
-Make sure you start your workers by specifying ```environment``` as part of your rake execution, e.g. 
+Make sure you start your workers by specifying `environment` as part of your rake execution.
+
+For example:
 
 ```
 QUEUE=* rake environment resque:work
 ```
 
-Some users also see issues where Rails models are lazy-loaded in the Job execution and due to some internal class loading wackiness this results in LoadErrors or Uninitialized Constant exceptions. This can be solved by forcing ActiveRecord models to load, by creating a ```lib/tasks/resque.rake```
+Some users also experience issues where Rails models are lazy-loaded in the Job execution. Due to some internal class loading wackiness, this results in `LoadErrors` or `Uninitialized Constant` exceptions. This can be solved by forcing ActiveRecord models to load, by creating a `lib/tasks/resque.rake`
 
 ``` ruby
 # load the Rails app all the time
@@ -79,12 +79,12 @@ namespace :resque do
 end
 ```
 
-## How to make Resque job to wait for ActiveRecord transaction commit, so that it see all changes made by that transaction?
+## How do you make a Resque job wait for an ActiveRecord transaction commit?
 
-The first way is enqueue job only in `after_commit` hook in models.
-But `after_commit` solves the problem only in model create/update use case . In general task should be put to redis only after all transactions get closed. Otherwise serious problems may appear.
+The first way is to enqueue a job in a model's `after_commit` hook.
+But `after_commit` solves the problem only in the model create and update use cases.
 
-In order to do that use [ar_after_transaction](https://github.com/grosser/ar_after_transaction) gem that provides `after_transaction` hook whenever you need it:
+In general, a task should be put into redis only after all transactions are complete, otherwise serious problems may appear. In order to do that use the [ar_after_transaction](https://github.com/grosser/ar_after_transaction) gem, which provides an `after_transaction` hook whenever you need it:
 
 ``` ruby
 ActiveRecord::Base.after_transaction do
@@ -93,7 +93,8 @@ end
 ```
 
 
-If you want to keep entire team free from knowledge about transaction isolation level and this problem, you should monkey patch `Resque.enqueue` to be performed always after transaction completes.
+If you want to keep the team free from worrying about transaction isolation levels,
+then you should monkey patch `Resque.enqueue` to be performed only after the transaction completes.
 
 ``` ruby
 require 'ar_after_transaction'
@@ -115,7 +116,7 @@ end
 
 Add `ActiveRecord::Base.logger = Logger.new(STDOUT)` to your ruby class.
 
-## How do I override the views when mounted in a rails app?
+## How do I override views when mounted in a rails app?
 
 No answer.
 
@@ -123,15 +124,14 @@ No answer.
 
 No answer.
 
-## How to work around "MySQL server has gone away" error ?
+## How do you work around the `MySQL server has gone away` error ?
 
-In your `perform` method add the following line:
+In your `perform` method, add the following line:
 
 ``` ruby
 class MyTask
   def self.perform
     ActiveRecord::Base.verify_active_connections!
-
     # rest of your code
   end
 end
@@ -141,8 +141,10 @@ The Rails doc says the following about `verify_active_connections!`:
 
     Verify active connections and remove and disconnect connections associated with stale threads.
 
-## How to make resque to use redis password?
-It's enought to initialize your Redis.new specifying also password
+## How do you use redis' password?
+
+Add the password to your `Redis.new`.
+
 ``` ruby
 Resque.redis = Redis.new(:host => 'foo',
                          :port => 'foo',
