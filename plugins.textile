@@ -1,3 +1,5 @@
+* "mashion / resque-queue-lock":https://github.com/mashion/resque-queue-lock ("gem":https://rubygems.org/gems/resque-queue-lock)
+Two or more jobs with the same lock cannot be in the queue at the same time
 * "quirkey / resque-status":https://github.com/quirkey/resque-status ("gem":http://gemcutter.org/gems/resque-status)
 extension to the resque queue system that provides simple trackable jobs.
 * "bvandenbos / resque-scheduler":https://github.com/bvandenbos/resque-scheduler ("gem":http://gemcutter.org/gems/resque-scheduler)
