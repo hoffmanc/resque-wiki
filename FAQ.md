@@ -150,3 +150,15 @@ Resque.redis = Redis.new(:host => 'foo',
                          :port => 'foo',
                          :password => 'foo')
 ```
+## How do you protect resque-web with Devise?
+Change your `routes.rb` file to authenticate your users.
+
+```ruby
+#routes.rb
+...
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  authenticate :admin_user do #replace admin_user(s) with whatever model your users are stored in.
+    mount Resque::Server.new, :at => "/jobs"
+  end
+...
+```
