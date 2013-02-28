@@ -18,7 +18,18 @@ h2. Bugs
 * The "Issue Tracker":http://github.com/defunkt/resque/issues is the perfect place for bugs. 
 * Have a large stack trace you want to paste in? Create a "Gist":http://gist.github.com/ and link to it in your issue, or, if you're on OS X, try the handy "pbindent":http://github.com/rtomayko/dotfiles/blob/rtomayko/bin/pbindent command.
 
+
+
 h2. Creating a Patch
+
+h3. Branches
+
+* `1-x-stable` is the branch that 1.x versions are cut from
+* `master` is what will become 2.x
+
+Please consider which branch (or both) should be the target of your feature / bug fix. If both consider having one branch for the patch against `1-x-stable` and one branch for the patch against `master`
+
+h3. Process
 
 * "Fork":http://help.github.com/forking/ defunkt/resque
 * Create a topic branch: `git checkout -b my_fix`
