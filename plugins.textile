@@ -20,8 +20,6 @@ Adds locking, with optional timeout/deadlock handling to resque jobs
 Test::Unit assertions for code that enqueues Resque jobs
 * "leshill / resque_spec":https://github.com/leshill/resque_spec ("gem":http://rubygems.org/gems/resque_spec)
 RSpec matcher for Resque
-* "pezra / resque-multi-step":https://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
-Provides multi-step tasks with finalization and progress tracking
 * "drfeelngood / resque-batched-job":https://github.com/drfeelngood/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
 Resque plugin that understands individual jobs can belong to something bigger than themselves
 * "jayniz / resque-loner":https://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
@@ -103,6 +101,8 @@ A plugin for Resque that forks X children, processes all jobs in the queue and a
 Add metadata to your jobs
 * "lmarlow / resque-result":https://github.com/lmarlow/resque-result ("gem":http://rubygems.org/gems/resque-result)
 fetch the result from a job's perform method
+* "pezra / resque-multi-step":https://github.com/pezra/resque-multi-step ("gem":http://rubygems.org/gems/resque-multi-step)
+Provides multi-step tasks with finalization and progress tracking
 * "pezra / resque-fairly":https://github.com/pezra/resque-fairly ("gem":http://rubygems.org/gems/resque-fairly)
 Handle jobs with predictable latency regardless of the queue the jobs are placed in
 * "ajmurmann / resque-heroku-autoscaler":https://github.com/ajmurmann/resque-heroku-autoscaler ("gem":https://rubygems.org/gems/resque-heroku-autoscaler)
