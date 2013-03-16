@@ -1,7 +1,7 @@
 Resque ships with Redis and "Airbrake":http://airbrake.io/ failure backends, but you can add your own.
 
 * "Email":http://gist.github.com/291329
-* "Email via exception_notification for Rails":https://github.com/akshayrawat/resque_exception_notification - Sends data via the [exception_notification](https://github.com/smartinez87/exception_notification) gem.
+* "Email via exception_notification":https://github.com/akshayrawat/resque_exception_notification - Sends data via the "exception_notification":https//github.com/smartinez87/exception_notification gem for Rails.
 * "Syslog":http://gist.github.com/1779106
 * "Custom":http://gist.github.com/299477
 * "Coalmine":https://github.com/Fatsoma/resque_coalmine_gem - Sends data to "Coalmine":https://www.getcoalmine.com/
