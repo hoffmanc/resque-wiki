@@ -10,4 +10,4 @@ Loggers support various severity levels. The default severity level is `Logger::
 Resque.logger.level = Logger::DEBUG
 ```
 
-*Note:* this new API replaces the former `VERBOSE` and `VVERBOSE` environment variables.
+**NOTE:** this new API replaces the former `VERBOSE` and `VVERBOSE` environment variables.
