@@ -1,5 +1,8 @@
-# Welcome to the Resque Wiki
+# Resque Wiki
 
-Learn the [[FAQ]], see all the [[Plugins]], read about [[Alternate Implementations]], check out some [[Presentations]], or find new [[Failure Backends]].
-
-Please see [[Contributing]] if you'd like to work on Resque.
+* [[FAQ]]: frequently asked questions about Resque
+* [[Plugins]]: extensions which add functionality to Resque
+* [[Alternate Implementations]]: alternative versions of Resque which interoperate with the Ruby version
+* [[Presentations]]: learn more about Resque through presentations on it
+* [[Failure Backends]]: reconfigure Resque's error logger to get more information
+* [[Contributing]]: Learn about how to work on Resque
