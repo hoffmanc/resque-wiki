@@ -1,5 +1,3 @@
-# Resque Wiki
-
 * [[FAQ]]: frequently asked questions about Resque
 * [[Plugins]]: extensions which add functionality to Resque
 * [[Alternate Implementations]]: alternative versions of Resque which interoperate with the Ruby version
