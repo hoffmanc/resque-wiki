@@ -40,5 +40,5 @@ Please consider which branch (or both) should be the target of your feature / bu
 * Create a topic branch: `git checkout -b my_fix`
 * Make your changes
 * Push your branch: `git push origin my_fix`
-* Open an "Issue":http://github.com/defunkt/resque/issues referencing your branch.
+* Open an [Issue](http://github.com/defunkt/resque/issues) referencing your branch.
 * Please do *not* push to `master` on your fork. This will make everyone's life easier. 
