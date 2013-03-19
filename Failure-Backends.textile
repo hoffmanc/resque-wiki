@@ -18,3 +18,11 @@ Resque::Failure::Airbrake.configure do |config|
 end
 Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
 Resque::Failure.backend = Resque::Failure::Multiple
+
+Redis Backends
+--------------
+
+Resque ships with two failure backends which can be controlled by setting the `FAILURE_BACKEND` environment variable (or `Resque.config.failure_backend` on Resque 2.0) to the given string:
+
+* `'redis'`: (default) this creates a single 'failure' queue within Redis in which all failures from all jobs are placed, regardless of which queue the job originated from.
+* `'redis_multi_queue'`: creates a separate failure queue per job queue. Especially useful if you have a large number of job queues and want a way to individually track failures on a queue-by-queue basis
