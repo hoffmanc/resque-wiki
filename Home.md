@@ -4,4 +4,3 @@
 * [[Presentations]]: learn more about Resque through presentations on it
 * [[Failure Backends]]: reconfigure Resque's error logger to get more information
 * [[Logging]]: configure how Resque logs and what the log levels are
-* [[Contributing]]: Learn about how to work on Resque
