@@ -4,7 +4,7 @@ Please stick to the coding style that already exists in Resque. When in doubt, c
 
 ## Adding Code
 
-* Document every method you add. ([example][document_example]))
+* Document every method you add. ([example][document_example])
 * Write a test for every method you add. ([example][test_example])
 * If your addition is something you wish you had read in the README, add it to the README.
 * Wrap your lines at 80 characters. If your code can't fit, refactor.
