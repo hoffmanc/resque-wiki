@@ -19,9 +19,10 @@ Please stick to the coding style that already exists in Resque. When in doubt, c
 ##. Bugs
 
 * The [Issue Tracker][issue_tracker] is the perfect place for bugs.
-* Have a large stack trace you want to paste in? Create a "Gist":http://gist.github.com/ and link to it in your issue, or, if you're on OS X, try the handy [pbindent][pbindent] command.
+* Have a large stack trace you want to paste in? Create a [Gist][gist] and link to it in your issue, or, if you're on OS X, try the handy [pbindent][pbindent] command.
 
 [issue_tracker]: http://github.com/defunkt/resque/issues
+[gist]: http://gist.github.com/
 [pbindent]: http://github.com/rtomayko/dotfiles/blob/rtomayko/bin/pbindent
 
 ## Creating a Patch
