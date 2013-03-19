@@ -1,4 +1,13 @@
-Resque ships with Redis and [Airbrake](http://airbrake.io/) failure backends, but you can add your own. Here are some examples of how to do so:
+Resque ships with Redis and [Airbrake](http://airbrake.io/) failure backends.
+
+## Redis backends
+
+Resque ships with two failure backends which can be controlled by setting the `FAILURE_BACKEND` environment variable (or `Resque.config.failure_backend` on Resque 2.0) to the given string:
+
+* `'redis'`: (default) this creates a single 'failure' queue within Redis in which all failures from all jobs are placed, regardless of which queue the job originated from.
+* `'redis_multi_queue'`: creates a separate failure queue per job queue. Especially useful if you have a large number of job queues and want a way to individually track failures on a queue-by-queue basis
+
+## Defining custom failure backends
 
 * **Email**: http://gist.github.com/291329
 * **Email via exception_notification**: https://github.com/akshayrawat/resque_exception_notification - Sends data via the [exception_notification](https://github.com/smartinez87/exception_notification) gem for Rails.
@@ -6,6 +15,8 @@ Resque ships with Redis and [Airbrake](http://airbrake.io/) failure backends, bu
 * **Custom**:http://gist.github.com/299477
 * **Coalmine**:https://github.com/Fatsoma/resque_coalmine_gem - Sends data to [Coalmine](https://www.getcoalmine.com/)
 * **Exceptional**: http://github.com/lantins/resque-exceptional - Sends data to [Exceptional](http://www.getexceptional.com/)
+
+## Using multiple failure backends at once
 
 Using multiple failure backends is also useful. For example, you may want to get an Airbrake notification and be able to view the same exception under the 'Failed' tab in ResqueWeb.  To use multiple failure backends, add something like the following to an initializer, rake task, or whatever:
 
@@ -20,10 +31,3 @@ end
 Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
 Resque::Failure.backend = Resque::Failure::Multiple
 ```
-
-## Redis Backends
-
-Resque ships with two failure backends which can be controlled by setting the `FAILURE_BACKEND` environment variable (or `Resque.config.failure_backend` on Resque 2.0) to the given string:
-
-* `'redis'`: (default) this creates a single 'failure' queue within Redis in which all failures from all jobs are placed, regardless of which queue the job originated from.
-* `'redis_multi_queue'`: creates a separate failure queue per job queue. Especially useful if you have a large number of job queues and want a way to individually track failures on a queue-by-queue basis
