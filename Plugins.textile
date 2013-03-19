@@ -6,7 +6,7 @@ extension to the resque queue system that provides simple trackable jobs.
 A light-weight job scheduling system built on top of resque
 * "zapnap / resque_mailer":https://github.com/zapnap/resque_mailer ("gem":http://gemcutter.org/gems/resque_mailer)
 Rails plugin for sending asynchronous email with ActionMailer and Resque
-* "jstorimer / delayed_paperclip":https://github.com/jstorimer/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip)
+* "jrgifford / delayed_paperclip":https://github.com/jrgifford/delayed_paperclip  ("gem":http://gemcutter.org/gems/delayed_paperclip)
 Process your Paperclip attachments in the background with delayed_job or Resque.
 * "scotttam / resque-throttle":https://github.com/scotttam/resque-throttle ("gem":http://rubygems.org/gems/resque-throttle)
 Restrict the frequency in which certain jobs are run
