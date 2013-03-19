@@ -1,15 +1,16 @@
-Resque ships with Redis and "Airbrake":http://airbrake.io/ failure backends, but you can add your own.
+Resque ships with Redis and [Airbrake](http://airbrake.io/) failure backends, but you can add your own. Here are some examples of how to do so:
 
-* "Email":http://gist.github.com/291329
-* "Email via exception_notification":https://github.com/akshayrawat/resque_exception_notification - Sends data via the "exception_notification":https://github.com/smartinez87/exception_notification gem for Rails.
-* "Syslog":http://gist.github.com/1779106
-* "Custom":http://gist.github.com/299477
-* "Coalmine":https://github.com/Fatsoma/resque_coalmine_gem - Sends data to "Coalmine":https://www.getcoalmine.com/
-* "Exceptional":http://github.com/lantins/resque-exceptional - Sends data to "Exceptional":http://www.getexceptional.com/
+* **Email**: http://gist.github.com/291329
+* **Email via exception_notification**: https://github.com/akshayrawat/resque_exception_notification - Sends data via the [exception_notification](https://github.com/smartinez87/exception_notification) gem for Rails.
+* **Syslog**:http://gist.github.com/1779106
+* **Custom**:http://gist.github.com/299477
+* **Coalmine**:https://github.com/Fatsoma/resque_coalmine_gem - Sends data to [Coalmine](https://www.getcoalmine.com/)
+* **Exceptional**: http://github.com/lantins/resque-exceptional - Sends data to [Exceptional](http://www.getexceptional.com/)
 
 Using multiple failure backends is also useful. For example, you may want to get an Airbrake notification and be able to view the same exception under the 'Failed' tab in ResqueWeb.  To use multiple failure backends, add something like the following to an initializer, rake task, or whatever:
 
-pre. require 'resque/failure/multiple'
+```ruby
+require 'resque/failure/multiple'
 require 'resque/failure/airbrake'
 require 'resque/failure/redis'
 Resque::Failure::Airbrake.configure do |config|
@@ -18,6 +19,7 @@ Resque::Failure::Airbrake.configure do |config|
 end
 Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
 Resque::Failure.backend = Resque::Failure::Multiple
+```
 
 ## Redis Backends
 
