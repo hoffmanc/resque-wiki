@@ -14,7 +14,7 @@ Please stick to the coding style that already exists in Resque. When in doubt, c
 
 ## Asking Questions
 
-* We have a mailing list for discussions. To join the list simply send an email to "resque@librelist.com":mailto:resque@librelist.com. This will subscribe you and send you information about your subscription, including unsubscribe information.
+* We have a mailing list for discussions. To join the list simply send an email to [resque@librelist.com](mailto:resque@librelist.com). This will subscribe you and send you information about your subscription, including unsubscribe information.
 
 ##. Bugs
 
