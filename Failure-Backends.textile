@@ -19,8 +19,7 @@ end
 Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
 Resque::Failure.backend = Resque::Failure::Multiple
 
-Redis Backends
---------------
+## Redis Backends
 
 Resque ships with two failure backends which can be controlled by setting the `FAILURE_BACKEND` environment variable (or `Resque.config.failure_backend` on Resque 2.0) to the given string:
 
