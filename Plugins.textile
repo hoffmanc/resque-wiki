@@ -42,8 +42,6 @@ A resque plugin for specifying the queues a worker pulls from with wildcards, ne
 A resque plugin for specifying the priority between queues that workers use to determine what to work on next
 * "wr0ngway / graylog2-resque":https://github.com/wr0ngway/graylog2-resque ("gem":https://rubygems.org/gems/graylog2-resque)
 A resque failure handler that sends failures to the graylog2 log management facility
-* "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
-Resque plugin to allow (de)queueing of jobs without having the class loaded
 * "nragaz / resque-async-method":https://github.com/nragaz/resque-async-method ("gem":https://rubygems.org/gems/resque-async-method)
 Make Active Record instance methods asynchronous using resque
 * "joel / resque-async-method-enhanced":https://github.com/joel/resque-async-method-enhanced ("gem":https://rubygems.org/gems/resque-async-method-enhanced)
@@ -77,7 +75,12 @@ Allows jobs to be sent to a temporary queue to await approval. Once the job is a
 * "ticktricktrack / resque-web_no_act":https://github.com/ticktricktrack/resque-web_no_act ("gem":http://rubygems.org/gems/resque-web_no_act)
 A child-proofed version of the Resque web interface that's safe to use by less trustworthy personnel.
 
-h3. Unmaintained for more than one year:
+h3. For 1.x only
+
+* "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
+Resque plugin to allow (de)queueing of jobs without having the class loaded
+
+h3. Unmaintained?
 
 * "fphilipe / resque-async_deliver":https://github.com/fphilipe/resque-async_deliver ("gem":http://rubygems.org/gems/resque-async_deliver)
 Deliver mails asynchronously using Resque without explicitly creating a performable job.
