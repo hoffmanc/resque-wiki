@@ -4,3 +4,9 @@
 * [[Presentations]]: learn more about Resque through presentations on it
 * [[Failure Backends]]: reconfigure Resque's error logger to get more information
 * [[Logging]]: configure how Resque logs and what the log levels are
+
+## Developer Resources
+
+These Wiki pages are intended for people hacking on the Resque code:
+
+* [[Failures 2.0]]: design of a new failure API
