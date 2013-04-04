@@ -9,7 +9,7 @@ The Resque::Failure API presently suffers from a lot of problems. Here are some 
 
 ### The Path Forward
 
-These are @tarcieri's suggestions for fixing the API:
+These are [@tarcieri's](https://github.com/tarcieri) suggestions for fixing the API:
 
 * `More like ActiveRecord`: I think an ActiveRecord-alike API would make `Resque::Failure` intuitive to anyone who's familiar with ActiveRecord, and provides a fairly decent pattern for how these sort of persistence APIs should work. Calling `Resque::Failure.all(:queue => 'myqueue')` should return an array of Resque::Failure objects. I should be able to do things to a `Resque::Failure` object via instance methods, like `#destroy` it or `#retry` it.
 * `Multiple failure queues or GTFO`: Resque originally supported a single 'failed' queue, unfortunately as more people started using it, this was quickly shown not to scale very well. The failure API should be designed around the idea that every queue has its own individual failure queue. IMO, `Resque::Failure::Redis` should be completely deleted from Resque 2.0, and the `Resque::Failure::RedisMultiQueue` backend should replace it.
