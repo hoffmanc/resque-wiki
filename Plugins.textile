@@ -1,3 +1,5 @@
+* "derfred / resque-fanout":https://github.com/derfred/resque-fanout ("gem":https://rubygems.org/gems/resque-fanout)
+Runtime configurable routing to queues useful for communication between multiple applications 
 * "mashion / resque-queue-lock":https://github.com/mashion/resque-queue-lock ("gem":https://rubygems.org/gems/resque-queue-lock)
 Two or more jobs with the same lock cannot be in the queue at the same time
 * "quirkey / resque-status":https://github.com/quirkey/resque-status ("gem":http://gemcutter.org/gems/resque-status)
