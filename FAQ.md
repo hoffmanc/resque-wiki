@@ -13,7 +13,7 @@ For example, perform a disk space check on every machine in a cluster, every mac
 ## My workers are getting stuck in a weird state.
 
 Are you using **newrelic_rpm**?
-This is a known bug: <https://github.com/defunkt/resque/issues/180>
+This is a known bug: <https://github.com/resque/resque/issues/180>
 
 ## What's the best way to restart workers using capistrano?
 
