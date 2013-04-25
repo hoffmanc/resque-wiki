@@ -170,3 +170,7 @@ match "/jobs" => Resque::Server, :anchor => false, :constraints => lambda { |req
     req.env['warden'].authenticated? and req.env['warden'].user.can_view_resque?
   }
 ```
+
+## How does Resque workers choose which jobs to take from multiple queues?
+
+No answer.
