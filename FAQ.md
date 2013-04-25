@@ -162,3 +162,11 @@ Change your `routes.rb` file to authenticate your users.
   end
 ...
 ```
+
+If you need to be more specific with your authentication conditions, you can include them in a `:constraints` block when mounting via `match` method.
+
+```ruby
+match "/jobs" => Resque::Server, :anchor => false, :constraints => lambda { |req|
+    req.env['warden'].authenticated? and req.env['warden'].user.can_view_resque?
+  }
+```
