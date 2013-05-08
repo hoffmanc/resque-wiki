@@ -124,4 +124,4 @@ Delayed job queueing for Resque
 Have your resque workers process more that one job
 
 
-h3. Write your own: "PLUGINS":https://github.com/defunkt/resque/blob/master/docs/PLUGINS.md
+h3. Write your own: "PLUGINS":https://github.com/resque/resque/blob/master/docs/PLUGINS.md
