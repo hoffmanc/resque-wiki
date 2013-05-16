@@ -16,6 +16,7 @@ Resque ships with two failure backends which can be controlled by setting the `F
 * **Coalmine**:https://github.com/Fatsoma/resque_coalmine_gem - Sends data to [Coalmine](https://www.getcoalmine.com/)
 * **Exceptional**: http://github.com/lantins/resque-exceptional - Sends data to [Exceptional](http://www.getexceptional.com/)
 * **Noti**: https://github.com/jpl/resque-noti-failure - Sends data to [Noti](https://notiapp.com/)
+* **Rollbar**: https://github.com/CrowdFlower/resque-rollbar - Sends data to [Rollbar](https://rollbar.com)
 
 ## Using multiple failure backends at once
 
