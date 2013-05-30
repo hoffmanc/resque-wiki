@@ -173,4 +173,6 @@ match "/jobs" => Resque::Server, :anchor => false, :constraints => lambda { |req
 
 ## How does Resque workers choose which jobs to take from multiple queues?
 
-No answer.
+Check out [lib/resque/worker.rb](https://github.com/resque/resque/blob/master/lib/resque/worker.rb). 
+
+When a worker is initialized it's passed a list of queues, which is checks in the order that they're passed.
