@@ -55,7 +55,7 @@ end
 
 When you write a restart task for resque, you may want to think what happens to a job running at that time. If you want to make sure the job finishes properly, you must send the `QUIT` signal to the existing resque worker process. This will stop the worker process gracefully.
 
-Check out [Readme](https://github.com/defunkt/resque/blob/master/README.md) to learn more about how Resque workers respond to signals.
+Check out [Readme](https://github.com/resque/resque#workers) and [1-x-stable Readme](https://github.com/resque/resque/blob/1-x-stable/README.markdown#signals) to learn more about how Resque workers respond to signals.
 
 ## How do I ensure my Rails classes/environment is loaded?
 
