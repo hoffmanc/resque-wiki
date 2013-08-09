@@ -32,4 +32,10 @@ RSpec.configure do |config|
 end
 ```
 
+If you're not using Rails, you must set the redis server in Resque:
+
+    Resque.redis = Redis.new(:host => 'localhost', :port => 9736, :thread_safe => true)  
+
+and change `REDIS_PID` and `REDIS_CACHE_PATH` paths to your own location.
+
 You might also like [mock_redis](https://github.com/causes/mock_redis) if you don't need full-on live integration tests all the time (but you might also just have `Resque.inline` set for most of your test suite).
