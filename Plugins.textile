@@ -76,6 +76,8 @@ Methods to queue any method in any class or instance with no need for additional
 Allows jobs to be sent to a temporary queue to await approval. Once the job is approved, it is placed on its normal queue.
 * "ticktricktrack / resque-web_no_act":https://github.com/ticktricktrack/resque-web_no_act ("gem":http://rubygems.org/gems/resque-web_no_act)
 A child-proofed version of the Resque web interface that's safe to use by less trustworthy personnel.
+* "academicworks / resque-uniqueue":https://github.com/AcademicWorks/resque-uniqueue/ ("gem":https://rubygems.org/gems/resque-uniqueue)
+Unique resque queues using redis 2.6.0 scripting, sets and not much else
 
 h3. For 1.x only
 
