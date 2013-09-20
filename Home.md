@@ -10,4 +10,4 @@
 These Wiki pages are intended for people hacking on the Resque code:
 
 * [[Failures 2.0]]: design of a new failure API
-* [[Job-MetaData-2.0]: integration of job metadata in 2.0 or maybe 2.1?
+* [[Job-MetaData-2.0]]: integration of job metadata in 2.0 or maybe 2.1?
