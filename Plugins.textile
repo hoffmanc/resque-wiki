@@ -26,6 +26,8 @@ RSpec matcher for Resque
 Resque plugin that understands individual jobs can belong to something bigger than themselves
 * "jayniz / resque-loner":https://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 Support for unique jobs in defunkt/resque: Only one job with the same payload per queue
+* "neighborland / resque_solo":https://github.com/neighborland/resque_solo ("gem":https://rubygems.org/gems/resque_solo)
+Unique jobs per queue. Based on resque-loner. For resque > =1.25.
 * "ono / resque-cleaner":https://github.com/ono/resque-cleaner ("gem":http://rubygems.org/gems/resque-cleaner)
 maintains the cleanliness of failed jobs on Resque
 * "nevans / resque-pool":https://github.com/nevans/resque-pool ("gem":http://rubygems.org/gems/resque-pool)
