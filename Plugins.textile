@@ -82,6 +82,8 @@ A child-proofed version of the Resque web interface that's safe to use by less t
 Unique resque queues using redis 2.6.0 scripting, sets and not much else
 * "paulnsorensen / lifesaver":https://github.com/paulnsorensen/lifesaver/ ("gem":https://rubygems.org/gems/lifesaver)
 Uses Resque and Tire to asynchronously reindex elasticsearch when ActiveRecord models change
+* "fphilipe / resque-async_deliver":https://github.com/fphilipe/resque-async_deliver ("gem":http://rubygems.org/gems/resque-async_deliver)
+Drop-in solution for delivering mails asynchronously: @Mailer.async_deliver.some_mail(user)@.
 
 h3. For 1.x only
 
@@ -90,8 +92,6 @@ Resque plugin to allow (de)queueing of jobs without having the class loaded
 
 h3. Unmaintained?
 
-* "fphilipe / resque-async_deliver":https://github.com/fphilipe/resque-async_deliver ("gem":http://rubygems.org/gems/resque-async_deliver)
-Deliver mails asynchronously using Resque without explicitly creating a performable job.
 * "sickill / merb-resque-mailer":https://github.com/sickill/merb-resque-mailer ("gem":http://gemcutter.org/gems/merb-resque-mailer)
 Merb plugin for putting mail delivery jobs onto Resque queue
 * "bitbckt / resque-lifecycle":https://github.com/bitbckt/resque-lifecycle ("gem":http://rubygems.org/gems/resque-lifecycle)
