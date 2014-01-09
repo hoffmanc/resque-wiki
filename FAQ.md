@@ -15,6 +15,8 @@ For example, perform a disk space check on every machine in a cluster, every mac
 Are you using **newrelic_rpm**?
 This is a known bug: <https://github.com/resque/resque/issues/180>
 
+Whatever the root cause, https://github.com/shaiguitar/resque_stuck_queue/ can help you identify Resque issues coming up before it's too late.
+
 ## What's the best way to restart workers using capistrano?
 
 ### With Foreman and Upstart
