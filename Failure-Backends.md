@@ -11,6 +11,7 @@ Resque ships with two failure backends which can be controlled by setting the `F
 
 * **Email**: http://gist.github.com/291329
 * **Email via exception_notification**: https://github.com/akshayrawat/resque_exception_notification - Sends data via the [exception_notification](https://github.com/smartinez87/exception_notification) gem for Rails.
+* **Rescue log** (often STDOUT): https://github.com/orgsync/resque-backtrace - Primarily for local debugging
 * **Syslog**:http://gist.github.com/1779106
 * **Custom**:http://gist.github.com/299477
 * **Coalmine**:https://github.com/Fatsoma/resque_coalmine_gem - Sends data to [Coalmine](https://www.getcoalmine.com/)
