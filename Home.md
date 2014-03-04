@@ -9,5 +9,6 @@
 
 These Wiki pages are intended for people hacking on the Resque code:
 
+* [[2.0-feature-list]]: list of features we want to include in 2.0
 * [[Failures 2.0]]: design of a new failure API
 * [[Job-MetaData-2.0]]: integration of job metadata in 2.0 or maybe 2.1?
