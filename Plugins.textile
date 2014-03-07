@@ -24,6 +24,8 @@ Test::Unit assertions for code that enqueues Resque jobs
 RSpec matcher for Resque
 * "drfeelngood / resque-batched-job":https://github.com/drfeelngood/resque-batched-job ("gem":http://rubygems.org/gems/resque-batched-job)
 Resque plugin that understands individual jobs can belong to something bigger than themselves
+* "thoward / resque-mission":https://github.com/thoward/resque-mission ("gem":http://rubygems.org/gems/resque-mission)
+Resque Missions are multi-step, resumable jobs (completed steps won't repeat), requires "resque-status":https://github.com/quirkey/resque-status
 * "jayniz / resque-loner":https://github.com/jayniz/resque-loner ("gem":http://rubygems.org/gems/resque-loner)
 Support for unique jobs in defunkt/resque: Only one job with the same payload per queue
 * "neighborland / resque_solo":https://github.com/neighborland/resque_solo ("gem":https://rubygems.org/gems/resque_solo)
