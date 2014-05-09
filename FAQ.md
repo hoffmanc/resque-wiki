@@ -120,7 +120,7 @@ Add `ActiveRecord::Base.logger = Logger.new(STDOUT)` to your ruby class.
 
 ## How do I override views when mounted in a rails app?
 
-No answer.
+Create folder `resque` inside your rails/lib. Copy files *.erb to override from /gems/resque.../lib/resque/server/views. Create softlinks from your rails/lib/... to gem path. The best way is use bash script for you development machine to create this softlinks and yse your deploy.rb file to create softlinks with capistrano.
 
 ## Why might Resque be serving up completely blank asset files (CSS & JS) when used with Rails 3.1? 
 
