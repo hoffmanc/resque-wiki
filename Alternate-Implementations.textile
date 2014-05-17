@@ -5,6 +5,7 @@
 * "jamesgolick / scala-resque-worker":https://github.com/jamesgolick/scala-resque-worker - Scala
 * "gresrun / jesque":https://github.com/gresrun/jesque - Java
 * "chad / resque-sharp":https://github.com/chad/resque-sharp - .NET
+* "odinserj / HangFire":https://github.com/odinserj/HangFire - .NET
 * "joshholt / Nodeq":https://github.com/joshholt/Nodeq/ - node.js
 * "jbr / node-resque":https://github.com/jbr/node-resque/ - node.js
 * "chrisboulton / php-resque":https://github.com/chrisboulton/php-resque - PHP
@@ -12,7 +13,6 @@
 * "technoweenie / coffee-resque":https://github.com/technoweenie/coffee-resque - Coffeescript/Node.js
 * "jxa / resque-clojure":https://github.com/jxa/resque-clojure - Clojure
 * "diegok / resque-perl":https://github.com/diegok/resque-perl - Perl
-* "odinserj / HangFire":https://github.com/odinserj/HangFire - .NET
 
 h1. Resque Clients
 
