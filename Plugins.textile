@@ -91,6 +91,8 @@ h3. For 1.x only
 
 * "localshred / resque-remote":https://github.com/localshred/resque-remote ("gem":https://rubygems.org/gems/resque-remote)
 Resque plugin to allow (de)queueing of jobs without having the class loaded
+* "cristianbica / resque-serial-queues":https://github.com/cristianbica/resque-serial-queues ("gem":https://rubygems.org/gems/resque-serial-queues)
+Resque plugin to allow declaring serial queues
 
 h3. Unmaintained?
 
