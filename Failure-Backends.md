@@ -18,6 +18,7 @@ Resque ships with two failure backends which can be controlled by setting the `F
 * **Exceptional**: http://github.com/lantins/resque-exceptional - Sends data to [Exceptional](http://www.getexceptional.com/)
 * **Noti**: https://github.com/jpl/resque-noti-failure - Sends data to [Noti](https://notiapp.com/)
 * **Rollbar**: https://github.com/CrowdFlower/resque-rollbar - Sends data to [Rollbar](https://rollbar.com)
+* **Slack**: https://github.com/julienXX/resque-slack - Sends data to a [Slack](https://slack.com) channel
 
 ## Using multiple failure backends at once
 
