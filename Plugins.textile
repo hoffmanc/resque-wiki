@@ -86,8 +86,7 @@ Unique resque queues using redis 2.6.0 scripting, sets and not much else
 Uses Resque and Tire to asynchronously reindex elasticsearch when ActiveRecord models change
 * "fphilipe / resque-async_deliver":https://github.com/fphilipe/resque-async_deliver ("gem":http://rubygems.org/gems/resque-async_deliver)
 Drop-in solution for delivering mails asynchronously: @Mailer.async_deliver.some_mail(user)@.
-* "julienXX / resque-slack":https://github.com/julienXX/resque-slack
-("gem":http://rubygems.org/gems/resque-slack)
+* "julienXX / resque-slack":https://github.com/julienXX/resque-slack ("gem":http://rubygems.org/gems/resque-slack)
 Post your failed jobs to a Slack channel
 
 h3. For 1.x only
