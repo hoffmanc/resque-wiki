@@ -124,7 +124,13 @@ Create folder `resque` inside your rails/lib. Copy files *.erb to override from 
 
 ## Why might Resque be serving up completely blank asset files (CSS & JS) when used with Rails 3.1? 
 
-No answer.
+This is not because of Rails, Nginx is the reason. So in nginx.conf you need to remove the asset serving 
+module location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ 
+
+This will server the static assets of Resque.
+
+Else we can add path to it.
+
 
 ## How do you work around the `MySQL server has gone away` error ?
 
