@@ -17,6 +17,10 @@ This is a known bug: <https://github.com/resque/resque/issues/180>
 
 Whatever the root cause, https://github.com/shaiguitar/resque_stuck_queue/ can help you identify Resque issues coming up before it's too late.
 
+In Addition, If you kill the resque in running state the job will be moved to failed queue with error Dirty Exit so you can retry that later with running queue.
+
+And respect to stuck queues go to rails console and check Resque.workers for struck queues and delete using Resque.remove_worker(Resque.workers[n].id)
+
 ## What's the best way to restart workers using capistrano?
 
 ### With Foreman and Upstart
