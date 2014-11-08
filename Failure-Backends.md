@@ -7,6 +7,13 @@ Resque ships with two failure backends which can be controlled by setting the `F
 * `'redis'`: (default) this creates a single 'failure' queue within Redis in which all failures from all jobs are placed, regardless of which queue the job originated from.
 * `'redis_multi_queue'`: creates a separate failure queue per job queue. Especially useful if you have a large number of job queues and want a way to individually track failures on a queue-by-queue basis
 
+In version 1.x you can enable multi_queue by adding this to your config/initializers/resque.rb file in rails.
+```ruby
+require 'resque/failure/redis_multi_queue'
+
+Resque::Failure.backend = Resque::Failure::RedisMultiQueue
+```
+
 ## Defining custom failure backends
 
 * **Email**: http://gist.github.com/291329
