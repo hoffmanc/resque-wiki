@@ -71,7 +71,9 @@ A resque plugin aimed at workers management on remote hosts (so that you can sta
 * "julienXX / resque-waiting-room":https://github.com/julienXX/resque-waiting-room ("gem":https://rubygems.org/gems/resque-waiting-room)
 Resque plugin that throttles your jobs
 * "coupa / resque-round-robin":https://github.com/coupa/resque-round-robin
-resque plugin that modifies workers to pull jobs off queues
+resque plugin that modifies workers to pull jobs off queues, round-robin style
+* "coupa / resque-priority_enqueue":https://github.com/coupa/resque-priority_enqueue
+When you're in a hurry, you can cut to the front of the line
 * "ilyakatz / resque-history":https://github.com/ilyakatz/resque-history("gem":https://rubygems.org/gems/resque-history)
 Show history of recently executed resque jobs
 * "wallace / resque-lonely_job":https://github.com/wallace/resque-lonely_job ("gem":http://rubygems.org/gems/resque-lonely_job)
