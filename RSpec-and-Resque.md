@@ -19,14 +19,14 @@ RSpec.configure do |config|
       "loglevel"      => "debug",
       "logfile"       => "stdout",
       "databases"     => 16
-    }.map { |k, v| "#{k} #{v}" }.join("\n")
+    }.map { |k, v| "#{k} \"#{v}\"" }.join("\n")
     `echo '#{redis_options}' | redis-server -`
   end
 
   config.after(:suite) do
     %x{
-      cat #{REDIS_PID} | xargs kill -QUIT
-      rm -f #{REDIS_CACHE_PATH}dump.rdb
+      cat "#{REDIS_PID}" | xargs kill -QUIT
+      rm -f "#{REDIS_CACHE_PATH}dump.rdb"
     }
   end
 end
