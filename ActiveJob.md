@@ -3,7 +3,7 @@ Rails 4.2 introduced ActiveJob, a standard interface for job runners. Here is ho
 Set `active_job.queue_adapter` to `:resque` in `config/application.rb`.
 
 Change your job class to inherit from `ActiveJob::Base`:
-```
+```ruby
 class Archive < ActiveJob::Base
   queue_as :default
 
