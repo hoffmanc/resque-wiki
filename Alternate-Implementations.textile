@@ -8,6 +8,7 @@
 * "odinserj / HangFire":https://github.com/odinserj/HangFire - .NET
 * "joshholt / Nodeq":https://github.com/joshholt/Nodeq/ - node.js
 * "jbr / node-resque":https://github.com/jbr/node-resque/ - node.js
+* "taskrabbit / node-resque":https://github.com/taskrabbit/node-resque - node.js
 * "chrisboulton / php-resque":https://github.com/chrisboulton/php-resque - PHP
 * "plukevdh / kthxbye":https://github.com/plukevdh/kthxbye - Ruby
 * "technoweenie / coffee-resque":https://github.com/technoweenie/coffee-resque - Coffeescript/Node.js
