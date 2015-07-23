@@ -6,10 +6,6 @@ Simply edit this page and add your question to the bottom in the following forma
 
 /ˈreskyo͞o/
 
-## How do you perform the same job on all connected workers?
-
-For example, perform a disk space check on every machine in a cluster, every machine will run a worker.
-
 ## My workers are getting stuck in a weird state.
 
 Are you using **newrelic_rpm**?
