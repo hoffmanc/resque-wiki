@@ -7,7 +7,7 @@ Change your job class to inherit from `ActiveJob::Base`:
 class Archive < ActiveJob::Base
   queue_as :default
 
-  def self.perform(repo_id, branch = 'master')
+  def perform(repo_id, branch = 'master')
     repo = Repository.find(repo_id)
     repo.create_archive(branch)
   end
